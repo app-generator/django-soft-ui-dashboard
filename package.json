@@ -1,15 +1,14 @@
 {
-    "name": "boilerplate-code-django-dashboard",
+    "name": "django-soft-ui-dashboard",
     "mastertemplate": "boilerplate-code-django-dashboard",
-    "version": "1.0.4",
-    "description": "Template project - Django Boilerplate Code",
-    "scripts": {},
+    "version": "1.0.1",
+    "description": "Template project - django Boilerplate Code",
     "repository": {
         "type": "git",
-        "url": "https://github.com/app-generator/boilerplate-code-django-dashboard"
+        "url": "https://github.com/app-generator/django-soft-ui-dashboard"
     },
     "bugs": {
-        "url": "https://github.com/app-generator/boilerplate-code-django-dashboard/issues",
+        "url": "https://github.com/app-generator/django-soft-ui-dashboard/issues",
         "email": "support@appseed.us"
     },
     "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",
