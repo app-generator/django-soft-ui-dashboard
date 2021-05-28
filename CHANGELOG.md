@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.1] 2020-05-28
+### Remove Media & Minor Fixes
+
+- Patch `logout` link 
+- Delete useless `media` directory
+
 ## [1.0.0] 2020-05-28
 ### Initial Release
 
