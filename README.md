@@ -30,7 +30,7 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 <br />
 
-[//]: # PRODUCT_IMAGE
+<!-- PRODUCT_IMAGE -->
 
 <br />
 
