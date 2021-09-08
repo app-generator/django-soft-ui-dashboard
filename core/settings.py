@@ -6,7 +6,6 @@ Copyright (c) 2019 - present AppSeed.us
 import os
 from decouple import config
 from unipath import Path
-import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = Path(__file__).parent
@@ -30,7 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app'  # Enable the inner app 
+    'apps.app'  # Enable the inner app
 ]
 
 MIDDLEWARE = [
@@ -45,7 +44,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'core.urls'
-LOGIN_REDIRECT_URL = "home"   # Route defined in app/urls.py
+LOGIN_REDIRECT_URL = "home"  # Route defined in app/urls.py
 LOGOUT_REDIRECT_URL = "home"  # Route defined in app/urls.py
 TEMPLATE_DIR = os.path.join(CORE_DIR, "core/templates")  # ROOT dir for templates
 
@@ -73,7 +72,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME'  : 'db.sqlite3',
+        'NAME': 'db.sqlite3',
     }
 }
 
@@ -94,7 +93,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
