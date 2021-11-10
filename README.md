@@ -197,38 +197,6 @@ The generated file is saved in `static/assets/css` directory.
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
 
-### [Docker](https://www.docker.com/) execution
----
-
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/django-soft-ui-dashboard.git
-$ cd django-soft-ui-dashboard
-```
-
-> Start the app in Docker
-
-```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
-```
-
-Visit `http://localhost:85` in your browser. The app should be up & running.
-
-> Create Django `superuser` 
-
-```bash
-$ # Get Container ID
-$ docker ps
-$ 
-$ # Call docker exec and CREATE the Superuser
-$ docker exec -it <APPSEED_CONTAINER_ID> python manage.py createsuperuser
-```
- 
-<br />
-
 ### [Gunicorn](https://gunicorn.org/)
 ---
 
