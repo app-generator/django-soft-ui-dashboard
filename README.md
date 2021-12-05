@@ -249,4 +249,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-Django Soft UI Dashboard - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[Django Soft UI Dashboard](https://appseed.us/product/django-soft-ui-dashboard) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
