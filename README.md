@@ -21,7 +21,6 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 
 - [Django Soft UI Dashboard](https://appseed.us/product/django-soft-ui-dashboard) - product page
 - [Django Soft UI Dashboard](https://django-soft-ui-dashboard.appseed-srv1.com/) - LIVE Demo
-- [Django Soft UI Dashboard](https://docs.appseed.us/products/django-dashboards/soft-ui-dashboard) - Product documentation
 
 <br />
 
