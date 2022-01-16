@@ -9,9 +9,9 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 - `Up-to-date dependencies`
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **[Soft UI Dashboard](https://bit.ly/2Q1uIfK)** (Free Version) provided by **Creative-Tim**
-- `DB Tools`: SQLite, Django Native ORM
-- Session-Based Authentication, Forms validation
-- `Deployment`: **Docker**, Gunicorn / Nginx
+- UI-Ready app, `SQLite Database`, Django Native ORM
+- `Session-Based authentication`, Forms validation
+- `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
