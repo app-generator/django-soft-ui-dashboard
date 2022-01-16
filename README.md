@@ -6,7 +6,7 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 
 > Features
 
-- `Up-to-date dependencies`: **Django 3.2.6 LTS**
+- `Up-to-date dependencies`
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **[Soft UI Dashboard](https://bit.ly/2Q1uIfK)** (Free Version) provided by **Creative-Tim**
 - `DB Tools`: SQLite, Django Native ORM
