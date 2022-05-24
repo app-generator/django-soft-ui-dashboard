@@ -1,5 +1,20 @@
 # Change Log
 
+## [1.0.6] 2022-05-24
+### Improvements
+
+- Added CDN/Static Server management
+  - `ASSETS_ROOT` env variable
+- UI Update: `Soft UI Dashboard` v1.0.5
+  - upgrade Bootstrap version to v5.1.3
+  - upgrade ChartJs plugin version to v3.7.1
+  - fix running 'npm install' issue
+  - fix SCSS compiling issues
+  - update sidebar height
+  - fix sidebar button on Safari
+  - update dropdown text on RTL page
+  - fix navbar scroll error on example pages
+
 ## [1.0.5] 2022-01-16
 ### Improvements
 
