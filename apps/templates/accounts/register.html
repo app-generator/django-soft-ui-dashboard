@@ -1,0 +1,94 @@
+{% extends 'layouts/base-fullscreen.html' %}
+
+{% block title %} Sign UP {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+  <main class="main-content  mt-0">
+
+    <section>
+      <div class="page-header section-height-75">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
+              <div class="card card-plain mt-8">
+                <div class="card-header pb-0 text-left bg-transparent">
+                  <h4 class="text-info text-gradient">
+                    Django Soft - Register
+                  </h4>
+                  <p class="mb-0">
+                      {% if msg %}
+                          {{ msg | safe }}
+                      {% else %}
+                          Add your credentials
+                      {% endif %}                 
+                  </p>
+                </div>
+                <div class="card-body">
+                  <form role="form text-left" method="post" action="">
+                    
+                    {% csrf_token %}
+  
+                    <label>Username</label>
+                    <div class="mb-3">
+                      {{ form.username }}
+                    </div>
+                    <span class="text-error">{{ form.username.errors }}</span>
+  
+                    <label>Email</label>
+                    <div class="mb-3">
+                      {{ form.email }}
+                    </div>
+                    <span class="text-error">{{ form.email.errors }}</span>
+                    
+                    <label>Password</label>
+                    <div class="mb-3">
+                      {{ form.password1 }}
+                    </div>
+                    <span class="text-error">{{ form.password1.errors }}</span>
+  
+                    <label>Password Check</label>
+                    <div class="mb-3">
+                      {{ form.password2 }}
+                    </div>
+                    <span class="text-error">{{ form.password2.errors }}</span>
+  
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="rememberMe" checked="">
+                      <label class="form-check-label" for="rememberMe">Terms</label>
+                    </div>
+                    <div class="text-center">
+                      <button type="submit" name="register" class="btn bg-gradient-info w-100 mt-4 mb-0">Sign UP</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                  <p class="mb-4 text-sm mx-auto">
+                    Already have an account?
+                    <a href="{% url 'login' %}" 
+                       class="text-info text-gradient font-weight-bold">Sign IN</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
+                <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="background-image:url('{{ ASSETS_ROOT }}/img/curved-images/curved6.jpg')"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  {% include "includes/footer-fullscreen.html" %}
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}{% endblock javascripts %}
