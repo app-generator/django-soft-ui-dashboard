@@ -4,7 +4,6 @@ Copyright (c) 2019 - present AppSeed.us
 """
 
 import os, environ
-from   unipath import Path
 
 env = environ.Env(
     # set casting, default value
@@ -12,7 +11,7 @@ env = environ.Env(
 )
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = Path(__file__).parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 CORE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Take environment variables from .env file
