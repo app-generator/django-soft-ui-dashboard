@@ -67,13 +67,15 @@
                   <p class="mb-4 text-sm mx-auto">
 
                     <!-- GitHub button starts here -->
-                    {% if SOCIAL_AUTH_GITHUB %}
+                    {% if GITHUB_AUTH %}
                       
                       <p class="mb-2">or SignIn with</p>
                       
-                      <a class="btn btn-outline" href="#">
-                        <span class="text-lg fs-1 fab fa-github"></span>
-                      </a>
+                      <form method="post" action="/social_login/github/login/?next=%2F">{% csrf_token %}
+                        <button class="btn btn-outline" type="submit">
+                          <span class="text-lg fs-1 fab fa-github"></span>
+                        </button>
+                      </form>  
                           
                     {% endif %}
                     <!-- GitHub ends here -->
