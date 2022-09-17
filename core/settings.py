@@ -39,12 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'apps',
     'apps.home',                                    # Enable the inner home (home)
     'allauth',                                      # OAuth new
     'allauth.account',                              # OAuth new
     'allauth.socialaccount',                        # OAuth new 
     'allauth.socialaccount.providers.github',       # OAuth new 
-    "sslserver" 
+    "sslserver",
+    'rest_framework',
+    'rest_framework.authtoken'    
 ]
 
 MIDDLEWARE = [
@@ -148,6 +151,8 @@ STATICFILES_DIRS = (
     os.path.join(CORE_DIR, 'apps/static'),
 )
 
+# This is used by the API Generator
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #############################################################
 # OAuth settings 
@@ -174,4 +179,17 @@ if GITHUB_AUTH:
             'key': ''
         }
     }
-    
+
+#############################################################
+# OAuth settings 
+
+API_GENERATOR = {
+    'books': "Book"
+}
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.BasicAuthentication'
+    ],
+}
