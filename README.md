@@ -165,7 +165,7 @@ The API is secured using the JWT mechanism provided by DRF.
 - GET requests are public (GET all, get Item)
 - Mutating requests are protected by token generated based on the user credentials (`username`, `pass`). 
 
-> A POSTMAN Collection Sample can be found [here](#).
+> A POSTMAN Collection Sample can be found [here](./media).
 
 <br />
 
