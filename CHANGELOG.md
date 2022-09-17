@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.9] 2022-09-17
+### Improvements
+
+- Bump Codebase & UI version
+- Docker scripts update
+
 ## [1.0.8] 2022-06-21
 ### Improvements
 
