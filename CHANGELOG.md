@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.10] 2022-09-17
+### Improvements
+
+- Added **Github OAuth** via AllAuth. requires in `.env`:
+  - `GITHUB_ID`=<YOUR_GITHUB_ID>
+  - `GITHUB_SECRET`=<YOUR_GITHUB_SECRET>
+
 ## [1.0.9] 2022-09-17
 ### Improvements
 
