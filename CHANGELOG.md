@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.11] 2022-09-17
+### Improvements
+
+- API Generator 
+  - the code is generated on top of DRF
+  - Mutating requests secured by JWT
+
 ## [1.0.10] 2022-09-17
 ### Improvements
 
