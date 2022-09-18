@@ -1,0 +1,154 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- data-tables -->
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
+
+    <!-- bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="{% static 'src/style/myStyle.css' %}">
+
+    <title>Dynamic Data Table</title>
+</head>
+<body>
+
+    <div class="d-flex flex-column mx-5">
+        <div class="header p-3 pb-0 item d-flex justify-content-between">
+            <h1 class="model-name">Model Name</h1>
+        </div>
+
+        <div class="p-3 rounded bg-light item">
+            <table class="table"></table>
+        </div>
+
+    </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <form>{% csrf_token %}
+
+        <div class="modal-body" id="form">
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <input type="submit" class="btn btn-primary modal-btn"/>
+        </div>
+      </form>
+
+
+          <div class="alert alert-danger m-3 mt-0 d-none" role="alert">
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Pagination-->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+        {% if has_prev %}
+            <li class="page-item">
+            <a class="page-link" href="?page={{ current_page|add:"-1" }}&entries={{ entries }}&search={{ search }}">Previous</a>
+          </li>
+        {% else %}
+            <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="True">Previous</a>
+          </li>
+        {% endif %}
+
+        {% if current_page|add:'-4' > 1 %}
+            <li class="page-item"><a class="page-link" >&hellip;</a></li>
+        {% endif %}
+
+        {% for i in total_pages %}
+            {% if current_page == i %}
+                <li class="page-item active" aria-current="page">
+                <span class="page-link">
+                    {{ i }}
+              </span>
+            </li>
+            {% else  %}
+                 <li class="page-item"><a class="page-link" href="?page={{ i }}&entries={{ entries }}&search={{ search }}">{{ i }}</a></li>
+            {% endif %}
+        {% endfor %}
+
+        {% if total_pages|length > current_page|add:'4' %}
+           <li class="page-item"><a class="page-link" >&hellip;</a></li>
+        {% endif %}
+
+        {% if has_next %}
+            <li class="page-item">
+            <a class="page-link" href="?page={{ current_page|add:"1" }}&entries={{ entries }}&search={{ search }}">Next</a>
+          </li>
+        {% else %}
+            <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="True">Next</a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+
+    <!-- toast -->
+    <div class="toast-container position-fixed bottom-0 start-0 p-3 " >
+      <div id="liveToast" class="toast text-light bg-primary" data-bs-autohide="false" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+            Hello, world! This is a toast message.
+           </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      </div>
+    </div>
+
+  <script type="module">
+
+    import {setData , setModelName} from "{% static 'data/index.js' %}"
+
+    const headings = [
+      {% for item in headings %}
+        '{{ item }}',
+      {% endfor %}
+    ]
+
+    const data = [
+      {% for item in data %}
+          [{% for i in item %}
+              '{{ i }}',
+          {% endfor %}],
+      {% endfor %}
+    ]
+
+    const isDate = [
+        {% for item in is_date %}
+            '{{ item }}',
+        {% endfor %}
+    ]
+
+    setData(headings , data , isDate)
+    setModelName(
+        '{{ model_name }}'
+    )
+
+  </script>
+
+  <script type="module" src="{% static 'src/index.js' %}"></script>
+  
+</body>
+</html>
