@@ -10,12 +10,11 @@ from core.settings import API_GENERATOR
 
 from api_generator import manager
 
-
 def generate():
+
     manager.generate_serializer_file()
     manager.generate_views_file()
     manager.generate_urls_file()
-
 
 class Command(BaseCommand):
     help = 'API Code generator'
@@ -32,7 +31,14 @@ class Command(BaseCommand):
         not_migrated_models = []
         for model_name in API_GENERATOR.values():
             models = importlib.import_module('apps.models')
-            model = getattr(models, model_name)
+
+            try:
+                model = getattr(models, model_name)
+            except:
+                self.stdout.write(f'Error [' + model_name + ' Model]: NOT_FOUND or not migrated in DB.' )
+                self.stdout.write(f' > Hint: Update core/settings.py -> API_GENERATOR Section')
+                exit(1)
+
             try:
                 model.objects.last()
             except OperationalError:
