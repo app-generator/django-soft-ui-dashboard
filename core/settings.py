@@ -187,7 +187,6 @@ if GITHUB_AUTH:
 
 API_GENERATOR = {
     'books': "Book",
-    'sales': "Sales",
 }
 
 REST_FRAMEWORK = {
@@ -201,6 +200,5 @@ DYNAMIC_DATATB = {
     # pattern:
     'endpoint': 'Model',
 
-    'books': "Book",
-    'sales': "Sales",
+    'books': "Book"
 }
