@@ -186,6 +186,7 @@ if GITHUB_AUTH:
 # API Generator
 
 API_GENERATOR = {
+    # Register models below
     'books': "Book",
 }
 
@@ -196,9 +197,12 @@ REST_FRAMEWORK = {
     ],
 }
 
-DYNAMIC_DATATB = {
-    # pattern:
-    'endpoint': 'Model',
+#############################################################
+# DYNAMIC DATA Tables
 
-    'books': "Book",
+DYNAMIC_DATATB = {
+    'endpoint': 'Model', # don't change this line
+
+    # Register models below
+    'books': "Book",     
 }
