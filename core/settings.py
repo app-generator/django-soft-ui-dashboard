@@ -200,5 +200,5 @@ DYNAMIC_DATATB = {
     # pattern:
     'endpoint': 'Model',
 
-    'books': "Book"
+    'books': "Book",
 }
