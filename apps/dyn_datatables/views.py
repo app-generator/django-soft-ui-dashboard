@@ -11,7 +11,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 
-from apps.helpers import Utils
+from apps.models import Utils
 
 from core.settings import DYNAMIC_DATATB
 from django.db.models.fields import DateField
@@ -22,14 +22,13 @@ from matplotlib.backends.backend_pdf import PdfPages
 import base64
 import os
 
+
 # TODO: 404 for wrong page number
 def data_table_view(request, **kwargs):
-    
     try:
         model_class = Utils.get_class(DYNAMIC_DATATB, kwargs.get('model_name'))
     except KeyError:
-        return render(request, 'home/page-404.html', status=404)
-
+        return render(request, '404.html', status=404)
     headings = [field.name for field in model_class._meta.get_fields()]
 
     page_number = int(request.GET.get('page', 1))
@@ -37,7 +36,7 @@ def data_table_view(request, **kwargs):
     entries = int(request.GET.get('entries', 10))
 
     if page_number < 1:
-        return render(request, 'home/page-404.html', status=404)
+        return render(request, '404.html', status=404)
 
     filter_options = Q()
     for field in headings:
@@ -46,10 +45,7 @@ def data_table_view(request, **kwargs):
     data = all_data[(page_number - 1) * entries:page_number * entries]
     if all_data.count() != 0 and not 1 <= page_number <= math.ceil(all_data.count() / entries):
         return render(request, '404.html', status=404)
-
-    tmpl_name = 'index.html'
-
-    return render(request, tmpl_name, context={
+    return render(request, 'index.html', context={
         'model_name': kwargs.get('model_name'),
         'headings': headings,
         'data': [[getattr(record, heading) for heading in headings] for record in data],
@@ -63,6 +59,7 @@ def data_table_view(request, **kwargs):
         'entries': entries,
         'search': search_key,
     })
+
 
 @csrf_exempt
 def add_record(request, **kwargs):
@@ -87,6 +84,7 @@ def add_record(request, **kwargs):
         'success': True
     }), status=200)
 
+
 @csrf_exempt
 def delete_record(request, **kwargs):
     try:
@@ -109,6 +107,7 @@ def delete_record(request, **kwargs):
         'message': 'Record Deleted.',
         'success': True
     }), status=200)
+
 
 @csrf_exempt
 def edit_record(request, **kwargs):
@@ -133,6 +132,7 @@ def edit_record(request, **kwargs):
         'message': 'Record Updated.',
         'success': True
     }), status=200)
+
 
 @csrf_exempt
 def export(request, **kwargs):
@@ -182,6 +182,7 @@ def export(request, **kwargs):
         'success': True
     }), status=200)
 
+
 def get_pdf(data_frame, ):
     fig, ax = plt.subplots(figsize=(12, 4))
     ax.axis('tight')
@@ -194,6 +195,7 @@ def get_pdf(data_frame, ):
     pp.close()
     bytess = read_file_and_remove(random_file_name)
     return base64.b64encode(bytess).decode('utf-8')
+
 
 def get_excel(data_frame, ):
     random_file_name = get_random_string(10) + '.xlsx'
@@ -210,6 +212,7 @@ def get_csv(data_frame, ):
     bytess = read_file_and_remove(random_file_name)
     return base64.b64encode(bytess).decode('utf-8')
 
+
 def read_file_and_remove(path):
     with open(path, 'rb') as file:
         bytess = file.read()
@@ -218,6 +221,7 @@ def read_file_and_remove(path):
     # ths file pointer should be closed before removal
     os.remove(path)
     return bytess
+
 
 def get_random_string(length):
     # choose from all lowercase letter
