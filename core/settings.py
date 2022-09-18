@@ -45,9 +45,10 @@ INSTALLED_APPS = [
     'allauth.account',                              # OAuth new
     'allauth.socialaccount',                        # OAuth new 
     'allauth.socialaccount.providers.github',       # OAuth new 
-    "sslserver",
+    "sslserver",                                    
     'rest_framework',
-    'rest_framework.authtoken'    
+    'rest_framework.authtoken',
+    'apps.dyn_datatables',
 ]
 
 MIDDLEWARE = [
@@ -149,6 +150,7 @@ STATIC_URL = '/static/'
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
     os.path.join(CORE_DIR, 'apps/static'),
+    os.path.join(BASE_DIR, "apps/dyn_datatables/templates/static"),
 )
 
 # This is used by the API Generator
@@ -181,10 +183,11 @@ if GITHUB_AUTH:
     }
 
 #############################################################
-# OAuth settings 
+# API Generator
 
 API_GENERATOR = {
-    'books': "Book"
+    'books': "Book",
+    'sales': "Sales",
 }
 
 REST_FRAMEWORK = {
@@ -192,4 +195,12 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
         'rest_framework.authentication.BasicAuthentication'
     ],
+}
+
+DYNAMIC_DATATB = {
+    # pattern:
+    'endpoint': 'Model',
+
+    'books': "Book",
+    'sales': "Sales",
 }
