@@ -5,7 +5,9 @@ from rest_framework import serializers
 import sys
 import inspect
 
-
+'''
+Leave this Helper Class in the TOP of the file
+'''
 class Utils:
     @staticmethod
     def get_class(config, name: str) -> models.Model:
@@ -32,6 +34,10 @@ class Utils:
                 return cls[1]
         # we are confident that never returns None
         return None
+
+'''
+Add your models below
+'''
 
 class Book(models.Model):
     class Meta:
