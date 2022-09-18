@@ -20,7 +20,11 @@
                     Error 404
                 </h3>
                 <p class="mb-0 text-danger">
+                  {% if message %}
+                    message
+                  {% else %}
                     Page not found - If the problem persist, please access support.
+                  {% endif %}                     
                 </p>
               </div>
               <div class="card-body">
