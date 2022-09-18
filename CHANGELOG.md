@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.12] 2022-09-18
+### Improvements
+
+- Dynamic DataTables:
+  - Server-Side Pagination, Search, Export 
+
 ## [1.0.11] 2022-09-17
 ### Improvements
 
