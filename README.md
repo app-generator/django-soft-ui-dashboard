@@ -163,12 +163,17 @@ This module helps to generate secure APIs using DRF via a simple workflow:
 - Access the API in the browser:
   - `/api/MODEL_NAME/`
 
-The API is secured using the JWT mechanism provided by DRF.  
+The API is secured using the JWT token provided by `/login/jwt/` request (username & password should be provided).  
 
 - GET requests are public (GET all, get Item)
 - Mutating requests are protected by token generated based on the user credentials (`username`, `pass`). 
 
-> A POSTMAN Collection Sample can be found [here](./media).
+> Two POSTMAN Collections are provided in the `media` directory: 
+
+- [Books API](./media/api-books.postman_collection) - that uses PORT **5000* for the api
+- [Books API 2](./media/api-books-docker.postman_collection) - that uses PORT **5085* for the api (default port in Docker)
+
+In case both port are unusable in your environment, feel free to edit the files before POSTMAN import.
 
 <br />
 
