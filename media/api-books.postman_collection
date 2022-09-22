@@ -1,9 +1,8 @@
 {
 	"info": {
-		"_postman_id": "de0f9e35-1f4b-475c-83bc-947ef06db256",
-		"name": "Django API Gen Sample",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "3902283"
+		"_postman_id": "",
+		"name": "AppSeed Django API GEN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
@@ -52,7 +51,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "token 891dcf7a5d8dec7b68b7150dbd93d57925fab794",
+						"value": "token YOUR_TOKEN_HERE",
 						"type": "text"
 					}
 				],
@@ -87,7 +86,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "token 891dcf7a5d8dec7b68b7150dbd93d57925fab794",
+						"value": "token YOUR_TOKEN_HERE",
 						"type": "text"
 					}
 				],
@@ -123,7 +122,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "token 891dcf7a5d8dec7b68b7150dbd93d57925fab794",
+						"value": "token YOUR_TOKEN_HERE",
 						"type": "text"
 					}
 				],
