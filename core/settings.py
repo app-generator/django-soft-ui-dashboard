@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if os.environ.get('DB_ENGINE') and os.environ.get('DB_ENGINE') == "mysql":
+if os.environ.get('DB_ENGINE') and os.environ.get('DB_ENGINE') == "postgresql":
     DATABASES = { 
       'default': {
-        'ENGINE'  : 'django.db.backends.mysql', 
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME'    : os.getenv('DB_NAME'     , 'appseed_db'),
         'USER'    : os.getenv('DB_USERNAME' , 'appseed_db_usr'),
         'PASSWORD': os.getenv('DB_PASS'     , 'pass'),
@@ -206,3 +206,4 @@ DYNAMIC_DATATB = {
     # Register models below
     'books': "Book",     
 }
+
