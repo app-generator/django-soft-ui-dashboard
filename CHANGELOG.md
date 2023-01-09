@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.13] 2023-01-09
+### Changes
+
+- Move to theme-based pattern
+  - [Django Admin Soft](https://github.com/app-generator/django-admin-soft-dashboard)
+- 🚀 `Deployment` 
+  - `CI/CD` flow via `Render`
+
 ## [1.0.12] 2022-09-18
 ### Improvements
 
