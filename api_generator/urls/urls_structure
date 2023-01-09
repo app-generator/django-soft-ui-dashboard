@@ -1,7 +1,0 @@
-{library_imports}
-
-{project_imports}
-
-urlpatterns = [
-    {paths}
-]

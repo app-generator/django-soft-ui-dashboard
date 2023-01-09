@@ -1,1 +1,0 @@
-re_path("{endpoint}/((?P<pk>\d+)/)?", csrf_exempt({view_name}.as_view())),

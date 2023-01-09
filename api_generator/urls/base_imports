@@ -1,1 +1,0 @@
-from apps.api.views import {views_name}
