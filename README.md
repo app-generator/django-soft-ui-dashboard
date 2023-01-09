@@ -16,6 +16,7 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
 - 🚀 `Deployment` 
   - `CI/CD` flow via `Render`
+  - [Django Soft - Go LIVE](https://www.youtube.com/watch?v=1QVdQVSkUCI) - `video presentation`
 
 <br />
 
