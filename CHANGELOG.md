@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.14] 2023-01-28
+### Changes
+
+- Bump Design: [Django Admin Soft](https://github.com/app-generator/django-admin-soft-dashboard) `v1.0.8`
+- DOCS Update (readme). New sections:
+  - `How to customize the theme`
+  - Render deployment
+- Configure the project to use `home/templates`
+- Added `custom_footer` sample
+
 ## [1.0.13] 2023-01-09
 ### Changes
 
