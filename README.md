@@ -20,7 +20,7 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 
 <br />
 
-![Django Admin Soft - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/211278331-70dde54b-444c-4394-9e20-a2faa5d0b7de.png)
+![Django Admin Soft - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/215729207-5cce250e-54da-4712-89a9-c1fd6b0a149e.png)
 
 <br />
 
