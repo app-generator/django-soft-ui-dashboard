@@ -149,7 +149,7 @@ When the project requires customization, we need to copy the original file that 
 
 `home/templates/includes/custom_footer.html` 
 
-By default, this file is unused because the `theme` expects `footer.html` (without the `custom_` prefix). 
+By default, this file is unused because the `theme` expects `footer.html` (without the `custom-` prefix). 
 
 In order to use it, simply rename it to `footer.html`. Like this, the default version shipped in the library is ignored by Django. 
 
