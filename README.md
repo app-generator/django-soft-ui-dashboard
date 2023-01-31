@@ -108,7 +108,8 @@ When a template file is loaded in the controller, `Django` scans all template di
 The theme used to style this starter provides the following files: 
 
 ```bash
-< LIBRARY_ROOT >                      # This exists in ENV: LIB/admin_soft
+# This exists in ENV: LIB/admin_soft
+< UI_LIBRARY_ROOT >                      
    |
    |-- templates/                     # Root Templates Folder 
    |    |          
