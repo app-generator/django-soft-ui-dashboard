@@ -5,7 +5,7 @@ set -o errexit
 python -m pip install --upgrade pip
 
 # recompile scss
-npm install gulp-cli -g
+npm install gulp-cli
 npm i 
 gulp 
 
