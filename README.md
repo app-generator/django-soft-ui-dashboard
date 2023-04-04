@@ -81,81 +81,56 @@ The project is coded using a simple and intuitive structure presented below:
 < PROJECT ROOT >
    |
    |-- core/                            
-   |    |-- settings.py                  # Project Configuration  
-   |    |-- urls.py                      # Project Routing
+   |    |-- settings.py   # Project Configuration  
+   |    |-- urls.py       # Project Routing
    |
    |-- home/
-   |    |-- views.py                     # APP Views 
-   |    |-- urls.py                      # APP Routing
-   |    |-- models.py                    # APP Models 
-   |    |-- tests.py                     # Tests  
-   |    |-- templates/                   # Theme Customisation 
-   |         |-- includes                # 
-   |              |-- custom-footer.py   # Custom Footer      
+   |    |-- views.py      # APP Views 
+   |    |-- urls.py       # APP Routing
+   |    |-- models.py     # APP Models 
+   |    |-- tests.py      # Tests  
    |     
-   |-- requirements.txt                  # Project Dependencies
+   |-- templates/
+   |    |-- includes/     # UI components 
+   |    |-- layouts/      # Masterpages
+   |    |-- pages/        # Kit pages 
    |
-   |-- env.sample                        # ENV Configuration (default values)
-   |-- manage.py                         # Start the app - Django default start script
+   |-- static/   
+   |    |-- css/                                   # CSS Files 
+   |    |-- scss/                                  # SCSS Files 
+   |         |-- soft-ui-dashboard/_variables.scss # File Used for Theme Styling
+   |
+   |-- requirements.txt   # Project Dependencies
+   |
+   |-- env.sample         # ENV Configuration (default values)
+   |-- manage.py          # Start the app - Django default start script
    |
    |-- ************************************************************************
 ```
 
 <br />
 
-## How to Customize 
+## Recompile SCSS  
 
-When a template file is loaded in the controller, `Django` scans all template directories starting from the ones defined by the user, and returns the first match or an error in case the template is not found. 
-The theme used to style this starter provides the following files: 
+The SCSS/CSS files used to style the Ui are saved in the `static` directory. 
+In order to update the Ui colors (primary, secondary) this procedure needs to be followed. 
 
 ```bash
-# This exists in ENV: LIB/admin_soft
-< UI_LIBRARY_ROOT >                      
-   |
-   |-- templates/                     # Root Templates Folder 
-   |    |          
-   |    |-- accounts/       
-   |    |    |-- login.html           # Sign IN Page
-   |    |    |-- register.html        # Sign UP Page
-   |    |
-   |    |-- includes/       
-   |    |    |-- footer.html          # Footer component
-   |    |    |-- sidebar.html         # Sidebar component
-   |    |    |-- navigation.html      # Navigation Bar
-   |    |    |-- scripts.html         # Scripts Component
-   |    |
-   |    |-- layouts/       
-   |    |    |-- base.html            # Masterpage
-   |    |    |-- base-fullscreen.html # Masterpage for Auth Pages
-   |    |
-   |    |-- pages/       
-   |         |-- index.html           # Dashboard page
-   |         |-- profile.html         # Settings  Page
-   |         |-- *.html               # All other pages
-   |    
-   |-- ************************************************************************
+$ yarn                                             # install modules
+$ vi static/scss/soft-ui-dashboard/_variables.scss # edit variables 
+$ gulp                                             # SCSS to CSS translation
 ```
 
-When the project requires customization, we need to copy the original file that needs an update (from the virtual environment) and place it in the template folder using the same path. 
+The `_variables.scss` content defines the `primary` and `secondary` colors: 
 
-> For instance, if we want to **customize the footer.html** these are the steps:
-
-- ✅ `Step 1`: create the `templates` DIRECTORY inside the `home` app
-- ✅ `Step 2`: configure the project to use this new template directory
-  - `core/settings.py` TEMPLATES section
-- ✅ `Step 3`: copy the `footer.html` from the original location (inside your ENV) and save it to the `home/templates` DIR
-  - Source PATH: `<YOUR_ENV>/LIB/admin_soft/includes/footer.html`
-  - Destination PATH: `<PROJECT_ROOT>home/templates/includes/footer.html`
-
-> To speed up all these steps, the **codebase is already configured** (`Steps 1, and 2`) and a `custom footer` can be found at this location:
-
-`home/templates/includes/custom_footer.html` 
-
-By default, this file is unused because the `theme` expects `footer.html` (without the `custom-` prefix). 
-
-In order to use it, simply rename it to `footer.html`. Like this, the default version shipped in the library is ignored by Django. 
-
-In a similar way, all other files and components can be customized easily.
+```scss
+$primary:       #cb0c9f !default;   // EDIT for customization 
+$secondary:     #8392AB !default;   // EDIT for customization 
+$info:          #17c1e8 !default;   // EDIT for customization 
+$success:       #82d616 !default;   // EDIT for customization 
+$warning:       #fbcf33 !default;   // EDIT for customization 
+$danger:        #ea0606 !default;   // EDIT for customization 
+```
 
 <br />
 
