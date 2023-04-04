@@ -53,14 +53,14 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$primary:       #cb0c9f !default;
-$secondary:     #8392AB !default;
-$info:          #17c1e8 !default;
-$success:       #82d616 !default;
-$warning:       #fbcf33 !default;
-$danger:        #ea0606 !default;
-$light:         $gray-200 !default;
-$dark:          $h-color !default;
+$primary:       #cb0c9f !default; // EDIT for customization AND recompile via Gulp
+$secondary:     #8392AB !default; // EDIT for customization AND recompile via Gulp
+$info:          #17c1e8 !default; // EDIT for customization AND recompile via Gulp
+$success:       #82d616 !default; // EDIT for customization AND recompile via Gulp
+$warning:       #fbcf33 !default; // EDIT for customization AND recompile via Gulp
+$danger:        #ea0606 !default; // EDIT for customization AND recompile via Gulp
+$light:         $gray-200 !default; // EDIT for customization AND recompile via Gulp
+$dark:          $h-color !default;  // EDIT for customization AND recompile via Gulp
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
