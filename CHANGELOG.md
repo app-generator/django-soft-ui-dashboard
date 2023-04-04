@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.17] 2023-04-04
+### Changes
+
+- Added Local Templates and Static
+- Added Gulp Tooling
+- DOCS Update (readme)
+
 ## [1.0.16] 2023-02-28
 ### Changes
 
