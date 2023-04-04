@@ -1,0 +1,74 @@
+{% load i18n static admin_soft %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
+{% get_direction as direction %}
+{% get_admin_setting as admin_setting %}
+
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+      Soft UI Dashboard - {% block title %}{% endblock %}
+    </title>
+
+    <!-- Favicon -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'img/apple-icon.png' %}">
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Nucleo Icons -->
+    <link href="{% static 'css/nucleo-icons.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/nucleo-svg.css' %}" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="{% static 'css/nucleo-svg.css' %}" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link id="pagestyle" href="{% static 'css/soft-ui-dashboard.css' %}" rel="stylesheet" />
+    <link id="pagestyle_dark" href="{% static 'css/dark-theme-core.css' %}" rel="stylesheet" />
+
+    {% block extrahead %}{% endblock extrahead %}
+    {% block extrastyle %}{% endblock extrastyle %}
+
+</head>
+
+<body class="g-sidenav-show bg-gray-100">
+
+    {% include "includes/sidebar.html" %}
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+        {% include "includes/navigation.html" %} 
+        {% block content %}{% endblock content %}
+    </main>
+
+    <!-- APP Configurator -->
+    {% include "includes/fixed-plugin.html" %} 
+
+<!--   Core JS Files   -->
+{% include 'includes/scripts.html' %}
+
+
+{% block scripts %}{% endblock scripts %}
+
+<script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+</script>
+
+<!-- Github buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="{% static 'js/soft-ui-dashboard.min.js' %}"></script>
+<script src="{% static 'js/scripts.js' %}"></script>
+
+{% block extrascript %}{% endblock extrascript %}
+
+</body>
+</html>
