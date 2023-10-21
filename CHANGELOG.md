@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.19] 2023-10-21
+### Changes
+
+- Update Dependencies 
+- Update README 
+
 ## [1.0.18] 2023-04-06
 ### Changes
 
