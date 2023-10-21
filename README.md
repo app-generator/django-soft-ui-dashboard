@@ -5,21 +5,26 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 
 - 👉 [Django Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/django/) - `Product page`
 - 👉 [Django Soft Dashboard](https://django-soft-dash.onrender.com) - `LIVE Demo`
-- 🛒 **[Django Soft Dashboard PRO](https://appseed.us/product/soft-ui-dashboard-pro/django/)** - `Premium Version`
 
-<br />
+---
 
-> Features: 
+## Features
 
-- ✅ `Up-to-date Dependencies`
-- ✅ Theme: [Django Admin Soft](https://github.com/app-generator/django-admin-soft-dashboard), designed by [Creative-Tim](https://www.creative-tim.com/product/soft-ui-dashboard?AFFILIATE=128200)
-  - `can be used in any Django project` (new or legacy)
-- ✅ **Authentication**: `Django.contrib.AUTH`, Registration
-- 🚀 `Deployment` 
-  - `CI/CD` flow via `Render`
-  - [Django Soft - Go LIVE](https://www.youtube.com/watch?v=1QVdQVSkUCI) - `video presentation`
+> `Have questions?` Contact **[Support](https://appseed.us/support/)** (Email & Discord) provided by **AppSeed**
 
-<br />
+| Free Version                          | [PRO Version](https://appseed.us/product/soft-ui-dashboard-pro/django/)    | 🚀 Custom - $1999 (plus VAT)         |  
+| --------------------------------------| --------------------------------------| --------------------------------------|
+| ✓ **Django 4.1.12**                   | **Everything in Free**, plus:                                        | **Everything in PRO**, plus:       |
+| ✓ Best Practices                      | ✅ `OAuth` Google, GitHub                                            | ✅ **1mo Custom Development**     | 
+| ✓ Bootstrap 5, Soft Dashboard UI      | ✅ Extended User Model                                               | ✅ **Dedicated Developer**        |
+| ✓ `Docker`                            | ✅ Users Management                                                  | ✅ Weekly Sprints                 |
+| ✓ `CI/CD` Flow via Render             | ✅ Private REPO Access                                               | ✅ Technical SPECS                |
+| ✓ `Free Support`                      | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)  | ✅ Documentation                  |
+| -                                     | ✅ Deployment Assistance                                             | ✅ **30 days Delivery Warranty**  |
+| -                                     | -                                                                     |  -                                |
+| ------------------------------------  | ------------------------------------                                  | ------------------------------------|
+| ✓ [LIVE Demo](https://django-soft-dash.onrender.com/)  | 🚀 [LIVE Demo](https://django-soft-dash-pro.onrender.com/) | 🛒 `Order`: **[$1999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |   
+
 
 ![Django Admin Soft - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/215729207-5cce250e-54da-4712-89a9-c1fd6b0a149e.png)
 
