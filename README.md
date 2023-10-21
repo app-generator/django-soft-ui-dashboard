@@ -21,7 +21,6 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 | ✓ `CI/CD` Flow via Render             | ✅ Private REPO Access                                               | ✅ Technical SPECS                |
 | ✓ `Free Support`                      | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)  | ✅ Documentation                  |
 | -                                     | ✅ Deployment Assistance                                             | ✅ **30 days Delivery Warranty**  |
-| -                                     | -                                                                     |  -                                |
 | ------------------------------------  | ------------------------------------                                  | ------------------------------------|
 | ✓ [LIVE Demo](https://django-soft-dash.onrender.com/)  | 🚀 [LIVE Demo](https://django-soft-dash-pro.onrender.com/) | 🛒 `Order`: **[$1999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |   
 
