@@ -6,7 +6,15 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 - 👉 [Django Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/django/) - `Product page`
 - 👉 [Django Soft Dashboard](https://django-soft-dash.onrender.com) - `LIVE Demo`
 
----
+--- 
+
+## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `70%Off`
+
+> `React`, `Django`, `Flask`, and `NodeJs` starters crafted and actively supported by **AppSeed**
+ 
+[![](https://github-production-user-asset-6210df.s3.amazonaws.com/51070104/280080081-1e7c91c0-612f-4418-81e7-34c363378479.jpg)](https://appseed.us/)
+
+<br />
 
 ## Features
 
