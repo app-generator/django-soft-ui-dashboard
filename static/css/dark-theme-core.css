@@ -131,3 +131,46 @@ body.dark-page .btn-outline-dark {
   border-color: white;
 }
 /*# sourceMappingURL=dark-theme-core.css.map */
+
+body.dark-page .navbar-nav .nav-item .nav-link,
+body.dark-page .navbar-nav .nav-item .nav-link a,
+body.dark-page .navbar-nav .nav-item .nav-link .nav-link-text {
+  color: white;
+  border-color: white;
+}
+
+body.dark-page .input-group .form-control,
+body.dark-page .input-group .input-group-text {
+  background: #404B69 !important;
+  color: #fff !important;
+}
+body.dark-page .input-group .input-group-text svg {
+  color: #fff;
+}
+
+body.dark-page table th a,
+body.dark-page table td a,
+body.dark-page .filter_panel li a  {
+  color: #fff !important;
+}
+
+body.dark-page input[type="text"], 
+body.dark-page input[type="email"], 
+body.dark-page input[type="password"], 
+body.dark-page input[type="number"], 
+body.dark-page textarea, 
+body.dark-page select {
+  color: #fff !important;
+}
+
+body.dark-page p.datetime {
+  color: #fff !important;
+}
+
+body.dark-page .selector select {
+  background: #404B69 !important;
+}
+
+body.dark-page .selector .selector-filter {
+  background: #404B69 !important;
+}
