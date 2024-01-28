@@ -41,6 +41,7 @@
           </li>
         {% endif %}
 
+        {% if request.user.is_authenticated %}
         <li class="nav-item d-flex align-items-center">
 
           {% if request.user.is_superuser %}
@@ -51,6 +52,7 @@
             <span class="d-sm-inline d-none me-3">Change Password</span>
           </a>
         </li>
+        {% endif %}
 
         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
           <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
