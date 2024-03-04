@@ -7,7 +7,7 @@
   - use `str2bool`
 - Update Deps 
   - `requirements.txt`  
-- Update README: [PRO Version](https://appseed.us/product/argon-dashboard2-pro/django/), List features
+- Update README: [PRO Version](https://appseed.us/product/soft-ui-dashboard-pro/django/), List features
   - `API`, **Charts** 
   - **DataTables** (Filters, Export)
   - **Celery**
