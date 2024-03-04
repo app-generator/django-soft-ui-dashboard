@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.0.21] 2024-03-04
+### Changes
+
+- Deprecate `distutils`
+  - use `str2bool`
+- Update Deps 
+  - `requirements.txt`  
+- Update README: [PRO Version](https://appseed.us/product/argon-dashboard2-pro/django/), List features
+  - `API`, **Charts** 
+  - **DataTables** (Filters, Export)
+  - **Celery**
+  - **Media Files Manager**
+  - **Extended User Profiles**
+
 ## [1.0.20] 2023-02-14
 ### Changes
 

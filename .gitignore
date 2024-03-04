@@ -10,7 +10,7 @@ env
 /staticfiles/
 
 #src
-*.sqlite*
+#*.sqlite*
 
-.env
-yarn.lock
+#.env
+node_modules
