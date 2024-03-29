@@ -24,7 +24,7 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 | -                                     | ✅ **Extended User Profiles**                                                              |  -                                   |
 | -                                     | ✅ `Private REPO Access`                                                                   |  -                                   |
 | -                                     | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)                        |  -                                   |
-| -                                     | ✅ Deployment Assistance                                                                   |  -                                   |
+| -                                     | ✅ [AWS, DO, Azure Deploy Assistance](https://deploypro.dev/)                              |  -                                   |
 | ------------------------------------  | ------------------------------------                                                       | ------------------------------------|
 | ✓ [LIVE Demo](https://django-soft-dash.onrender.com)  | 🚀 [LIVE Demo](https://django-soft-dash-pro.onrender.com/) | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |  
 
