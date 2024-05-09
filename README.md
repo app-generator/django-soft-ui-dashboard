@@ -26,7 +26,7 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 | -                                     | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)                        |  -                                   |
 | -                                     | ✅ [AWS, DO, Azure Deploy Assistance](https://deploypro.dev/)                              |  -                                   |
 | ------------------------------------  | ------------------------------------                                                       | ------------------------------------|
-| ✓ [LIVE Demo](https://django-soft-dash.onrender.com)  | 🚀 [LIVE Demo](https://django-soft-dash-pro.onrender.com/) | 🛒 `Order`: **[$4,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |  
+| ✓ [LIVE Demo](https://django-soft-dash.onrender.com)  | 🚀 [LIVE Demo](https://django-soft-dash-pro.onrender.com/) | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |  
 
 
 ![Django Admin Soft - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/215729207-5cce250e-54da-4712-89a9-c1fd6b0a149e.png)
