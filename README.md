@@ -15,18 +15,17 @@ Designed for those who like bold elements and beautiful websites. Made of hundre
 | Free Version                          | [PRO Version](https://appseed.us/product/soft-ui-dashboard-pro/django/)    | [Custom Development](https://appseed.us/custom-development/) |  
 | --------------------------------------| --------------------------------------| --------------------------------------|
 | ✓ **Django 4.2.9**                    | **Everything in Free**, plus:                                                             | **Everything in PRO**, plus:         |
-| ✓ Best Practices                      | ✅ **Premium Bootstrap 5 Design**                                                         | ✅ **1mo Custom Development**       | 
-| ✓ Bootstrap 5, `Material` Design      | ✅ `OAuth` Google, GitHub                                                                 | ✅ **Team**: PM, Developer, Tester  |
+| ✓ Best Practices                      | ✅ **Premium Bootstrap 5 Design**                                                         | ✅ **1 Week** `Custom Development`  | 
+| ✓ Bootstrap 5, `Material` Design      | ✅ `OAuth` GitHub                                                                         | ✅ **Team**: PM, Developer, Tester  |
 | ✓ `CI/CD` Flow via Render             | ✅ `API`, **[Charts](https://django-soft-dash-pro.onrender.com/charts/)**                 | ✅ Weekly Sprints                   |
 | ✓ `Docker`                            | ✅ **[DataTables](https://django-soft-dash-pro.onrender.com/tables/)** (Filters, Export)  | ✅ Technical SPECS                  |
-| -                                     |✅ **Celery**                                                                               | ✅ Documentation                    |
+| ✓ `Free Support` (GitHub Issues)      |✅ **Celery**                                                                               | ✅ Documentation                    |
 | -                                     | ✅ **Media Files Manager**                                                                 | ✅ **30 days Delivery Warranty**    |
-| -                                     | ✅ **Extended User Profiles**                                                              |  -                                   |
+| -                                     | ✅ **Extended User Profiles**                                                              | ✅ [CI/CD for AWS, DO](https://appseed.us/terms/#section-ci-cd) **(Extra)**    |
 | -                                     | ✅ `Private REPO Access`                                                                   |  -                                   |
-| -                                     | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)                        |  -                                   |
-| -                                     | ✅ [AWS, DO, Azure Deploy Assistance](https://deploypro.dev/)                              |  -                                   |
+| -                                     | ✅ **[Premium Support](https://appseed.us/support/)**                                      |  -                                   |
 | ------------------------------------  | ------------------------------------                                                       | ------------------------------------|
-| ✓ [LIVE Demo](https://django-soft-dash.onrender.com)  | 🚀 [LIVE Demo](https://django-soft-dash-pro.onrender.com/) | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |  
+| ✓ [LIVE Demo](https://django-soft-dash.onrender.com)  | 🚀 [LIVE Demo](https://django-soft-dash-pro.onrender.com/) | 🛒 `Order`: **[$999](https://appseed.gumroad.com/l/rocket-package-week)** (GUMROAD) |   
 
 
 ![Django Admin Soft - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/215729207-5cce250e-54da-4712-89a9-c1fd6b0a149e.png)
