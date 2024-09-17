@@ -21,13 +21,7 @@
 
         {% if request.user.is_authenticated %}
           <li class="nav-item d-flex align-items-center">
-
-            {% if request.user.is_superuser %}
-            <a href="{% url 'admin:logout' %}" class="nav-link text-body font-weight-bold px-0">
-            {% else %}
-            <a href="{% url 'logout' %}" class="nav-link text-body font-weight-bold px-0">
-            {% endif %}
-            
+              <a href="{% url 'logout' %}" class="nav-link text-body font-weight-bold px-0">
               <i class="fa fa-user me-sm-1"></i>
               <span class="d-sm-inline d-none me-3">Logout</span>
             </a>
