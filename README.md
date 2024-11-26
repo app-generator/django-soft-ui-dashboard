@@ -1,14 +1,14 @@
 
-# [Django Soft Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/)
+# [Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/)
 
 Open-source **Django** project crafted on top of **Soft UI Dashboard**, an open-source iconic `Bootstrap` 4 design from Creative-Tim.
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
-- 👉 [Django Material Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/) - `Product Page`
-- 👉 [Django Material Dashboard](https://django-soft-dash.onrender.com/) - `LIVE Demo` 
-- 👉 [Django Material Dashboard Documentation](https://app-generator.dev/docs/products/django/soft-ui-dashboard/index.html) - `Complete Information` and Support Links
+- 👉 [Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/) - `Product Page`
+- 👉 [Django Soft UI Dashboard](https://django-soft-dash.onrender.com/) - `LIVE Demo` 
+- 👉 [Django Soft UI Dashboard Documentation](https://app-generator.dev/docs/products/django/soft-ui-dashboard/index.html) - `Complete Information` and Support Links
   - [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) - a `comprehensive tutorial`
-  - `Configuration`: Install Tailwind/Flowbite, Prepare Environment, Setting up the Database 
+  - `Configuration`: Install Dependencies, Prepare Environment, Setting up the Database 
   - `Start with Docker`
   - `Manual Build`
   - `Start the project`
@@ -47,4 +47,4 @@ The product is designed to deliver the best possible user experience with highly
 <br />
 
 ---
-[Django Soft Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/) - Open-Source **Django** Starter provided by [App Generator](https://app-generator.dev)
+[Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/) - Open-Source **Django** Starter provided by [App Generator](https://app-generator.dev)
