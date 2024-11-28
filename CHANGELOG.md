@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.25] 2024-11-28
+### Changes
+
+- Bump UI Theme Version
+
 ## [1.0.24] 2024-11-26
 ### Changes
 

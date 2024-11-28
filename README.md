@@ -24,7 +24,7 @@ The product is designed to deliver the best possible user experience with highly
 - `CI/CD` Flow via Render 
 - `Docker`
 
-![Django Soft Dashboard - Template project for Django provided by AppSeed.](https://github.com/user-attachments/assets/9d2f1079-965d-40e1-8e14-c8b26b6609fc)
+![Django Soft Dashboard - Modern template for Django Admin Section crafted on top of a modern Bootstrap 5 Design.](https://github.com/user-attachments/assets/9d2f1079-965d-40e1-8e14-c8b26b6609fc)
 
 <br />
 
@@ -42,7 +42,7 @@ The product is designed to deliver the best possible user experience with highly
 - **Celery** (async tasks)
 - **Deployment-Ready** for Render 
 
-![Soft Dashboard PRO Django](https://github.com/user-attachments/assets/d49ff612-c7a6-418a-bf26-8479f8514f53)
+![Django Soft Dashboard PRO - Premium starter powered by Django and Bootstrap 5 - actively supported provided by App-Generator.](https://github.com/user-attachments/assets/e615cd04-2340-4dd1-9c38-19b9761fc1e9)
 
 <br />
 
