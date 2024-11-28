@@ -24,7 +24,7 @@ The product is designed to deliver the best possible user experience with highly
 - `CI/CD` Flow via Render 
 - `Docker`
 
-![Django Soft Dashboard - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/215729207-5cce250e-54da-4712-89a9-c1fd6b0a149e.png)
+![Django Soft Dashboard - Template project for Django provided by AppSeed.](https://github.com/user-attachments/assets/9d2f1079-965d-40e1-8e14-c8b26b6609fc)
 
 <br />
 
