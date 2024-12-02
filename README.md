@@ -32,7 +32,7 @@ The product is designed to deliver the best possible user experience with highly
 - Docker 
 - CI/CD integration for Render 
 
-![Django Soft Dashboard - Modern template for Django Admin Section crafted on top of a modern Bootstrap 5 Design.](https://github.com/user-attachments/assets/9d2f1079-965d-40e1-8e14-c8b26b6609fc)
+![Django Soft Dashboard - Modern template for Django Admin Section crafted on top of a modern Bootstrap 5 Design.](https://github.com/user-attachments/assets/8bb25ecd-ced5-425f-956f-e01c3d8a928c)
 
 <br />
 
@@ -50,7 +50,7 @@ The product is designed to deliver the best possible user experience with highly
 - **Celery** (async tasks)
 - **Deployment-Ready** for Render 
 
-![Django Soft Dashboard PRO - Premium starter powered by Django and Bootstrap 5 - actively supported provided by App-Generator.](https://github.com/user-attachments/assets/e615cd04-2340-4dd1-9c38-19b9761fc1e9)
+![Django Soft Dashboard PRO - Premium starter powered by Django and Bootstrap 5 - actively supported provided by App-Generator.](https://github.com/user-attachments/assets/36cc976e-1e3f-444c-a951-344ad81206a1)
 
 <br />
 
