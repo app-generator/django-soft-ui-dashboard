@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.27] 2024-12-02
+### Changes
+
+- Update Media Files
+  - [Django Soft Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/)
+  - [Django Soft Dashboard PRO](https://app-generator.dev/product/soft-ui-dashboard-pro/django/)
+
 ## [1.0.26] 2024-11-28
 ### Changes
 
