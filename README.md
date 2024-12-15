@@ -13,7 +13,23 @@ The product is designed to deliver the best possible user experience with highly
   - `Manual Build`
   - `Start the project`
   - `Deploy on Render`
- 
+
+<br />
+
+## Add Features with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select Soft Dashboard as the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
 <br />
 
 ## Deploy on `Render` (free plan)
