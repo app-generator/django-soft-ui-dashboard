@@ -16,7 +16,7 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-## Add Features with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+### Customize with [Django App Generator - Soft Design](https://app-generator.dev/tools/django-generator/soft/)
 
 - Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
 - Select Soft Dashboard as the preferred design
