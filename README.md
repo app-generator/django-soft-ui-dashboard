@@ -19,7 +19,7 @@ The product is designed to deliver the best possible user experience with highly
 ### Customize with [Django App Generator - Soft Design](https://app-generator.dev/tools/django-generator/soft/)
 
 - Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
-- Select Soft Dashboard as the preferred design
+- Select **Soft Dashboard** as the preferred design
 - (Optional) Design Database: edit models and fields
 - (Optional) Edit the fields for the extended user model
 - (Optional) Enable OAuth for GitHub
