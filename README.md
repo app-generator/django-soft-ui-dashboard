@@ -1,7 +1,7 @@
 
 # [Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/)
 
-Open-source **Django** project crafted on top of **Soft UI Dashboard**, an open-source iconic `Bootstrap` 4 design from Creative-Tim.
+Open-source **Django** project crafted on top of **Soft UI Dashboard**, an open-source iconic `Bootstrap` Design from Creative-Tim.
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 - 👉 [Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/) - `Product Page`
