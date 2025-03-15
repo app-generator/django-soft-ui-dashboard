@@ -16,32 +16,10 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-### Customize with [Django App Generator - Soft Design](https://app-generator.dev/tools/django-generator/soft/)
-
-- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
-- Select **Soft Dashboard** as the preferred design
-- (Optional) Design Database: edit models and fields
-- (Optional) Edit the fields for the extended user model
-- (Optional) Enable OAuth for GitHub
-- (Optional) Add Celery (async tasks)
-- (Optional) Enable Dynamic API Module
-- Docker Scripts
-- Render CI/Cd Scripts
-
-**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
-
-<br />
-
-## Deploy on `Render` (free plan)
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
-
-<br /> 
-
 ## Features
 
 - Simple, Easy-to-Extend Codebase
-- Soft UI Dashboard Design - Full Integration 
+- [Soft UI Dashboard](https://app-generator.dev/docs/templates/bootstrap/soft-ui-dashboard.html) Design Integration 
 - Bootstrap 5 Styling 
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
@@ -51,6 +29,12 @@ The product is designed to deliver the best possible user experience with highly
 ![Django Soft Dashboard - Modern template for Django Admin Section crafted on top of a modern Bootstrap 5 Design.](https://github.com/user-attachments/assets/2dd7adf3-bf5f-4894-b585-3696e7a8606f)
 
 <br />
+
+## Deploy on `Render` (free plan)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+<br /> 
 
 ## [Soft Dashboard PRO Version](https://app-generator.dev/product/soft-ui-dashboard-pro/django/)
 
@@ -67,6 +51,26 @@ The product is designed to deliver the best possible user experience with highly
 - **Deployment-Ready** for Render 
 
 ![Django Soft Dashboard PRO - Premium starter powered by Django and Bootstrap 5 - actively supported provided by App-Generator.](https://github.com/user-attachments/assets/828b0f83-1a37-4390-8685-411b4f408cdb)
+
+<br />
+
+## `Customize` with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
+![Django Generator - User Interface for choosing the Design](https://github.com/user-attachments/assets/b989c434-1c53-49ff-8dda-b46dbfc142ac) 
+
+![Django App Generator - User Interface for Edit the Extended User Model](https://github.com/user-attachments/assets/f1a5fb68-a5ba-49c9-a3ae-91716de09912) 
 
 <br />
 
