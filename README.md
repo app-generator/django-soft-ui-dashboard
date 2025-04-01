@@ -20,7 +20,7 @@ The product is designed to deliver the best possible user experience with highly
 
 - Simple, Easy-to-Extend Codebase
 - [Soft UI Dashboard](https://app-generator.dev/docs/templates/bootstrap/soft-ui-dashboard.html) Design Integration 
-- Bootstrap 5 Styling 
+- [Bootstrap](https://app-generator.dev/docs/templates/bootstrap.html) CSS Styling 
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Docker 
@@ -30,7 +30,7 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
-## Deploy on `Render` (free plan)
+## Deploy on `Render`
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
