@@ -223,8 +223,8 @@
   - Optimize imports
   - Docker Scripts Update
 - Tooling: added scripts to recompile the SCSS files
-  - `core/static/assets/` - gulpfile.js
-  - `core/static/assets/` - package.json
+  - `config/static/assets/` - gulpfile.js
+  - `config/static/assets/` - package.json
   - `Update README` - [Recompile SCSS](https://github.com/app-generator/django-soft-ui-dashboard#recompile-css) (new section)
 - Fixes: 
   - Patch 500 Error when authenticated users access `admin` path (no slash at the end)
