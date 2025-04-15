@@ -43,15 +43,18 @@ The product is designed to deliver the best possible user experience with highly
 
 > The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-soft-dash-pro.onrender.com/).
 
-- **Simple, Easy-to-Extend** Codebase
-- **Soft UI Dashboard** Design - PRO Version
-- Bootstrap 5 CSS
-- **OAuth** - Github
-- **Extended User Profile**
-- **API** via DRF 
-- **Charts** via ApexJS 
-- **Celery** (async tasks)
-- **Deployment-Ready** for Render 
+- Simple, Easy-to-Extend Codebase
+- Soft UI Dashboard Design - PRO Version Integration
+- [Dynamic DataTables](https://django-soft-dash-pro.onrender.com/dynamic-dt/product/) - [Generate Data Tables with Django](https://app-generator.dev/docs/developer-tools/dynamic-datatables.html) (no coding)
+- [Dynamic API](https://django-soft-dash-pro.onrender.com/api/product/) - [Generate API Endpoints with Django](https://app-generator.dev/docs/developer-tools/dynamic-api.html) (no coding)
+- [Charts](https://django-soft-dash-pro.onrender.com/charts/) via ApexCharts.js
+- Media Files Manager
+- Async Tasks (celery)
+- [CLI Tools for Django](https://app-generator.dev/docs/developer-tools/django-cli/index.html) - migrate DB, manage GIT commits and   
+- Session-based Authentication, Password recovery
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
+- Docker 
+- CI/CD integration for [Render](https://app-generator.dev/docs/deployment/render/index.html)
 
 ![Django Soft Dashboard PRO - Premium starter powered by Django and Bootstrap 5 - actively supported provided by App-Generator.](https://github.com/user-attachments/assets/828b0f83-1a37-4390-8685-411b4f408cdb)
 
