@@ -1,7 +1,8 @@
 
 # [Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/)
 
-Open-source **Django** project crafted on top of **Soft UI Dashboard**, an open-source iconic `Bootstrap` Design from Creative-Tim.
+Open-source **Django** project crafted on top of **[Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/)**, 
+an open-source iconic `Bootstrap` Design from [Creative-Tim](https://app-generator.dev/agency/creative-tim/).
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 - 👉 [Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/) - `Product Page`
@@ -19,12 +20,14 @@ The product is designed to deliver the best possible user experience with highly
 ## Features
 
 - Simple, Easy-to-Extend Codebase
-- [Soft UI Dashboard](https://app-generator.dev/docs/templates/bootstrap/soft-ui-dashboard.html) Design Integration 
-- [Bootstrap](https://app-generator.dev/docs/templates/bootstrap.html) CSS Styling 
+- [Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/) Design Integration
+- [Dynamic DataTables](https://django-soft-dash.onrender.com/dynamic-dt/product/) - [Generate Data Tables with Django](https://app-generator.dev/docs/developer-tools/dynamic-datatables.html) (no coding)
+- [Dynamic API](https://django-soft-dash.onrender.com/api/product/) - [Generate API Endpoints with Django](https://app-generator.dev/docs/developer-tools/dynamic-api.html) (no coding)
+- [Charts](https://django-soft-dash.onrender.com/charts/) via ApexCharts.js 
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Docker 
-- CI/CD integration for Render 
+- CI/CD integration for [Render](https://app-generator.dev/docs/deployment/render/index.html) 
 
 ![Django Soft Dashboard - Modern template for Django Admin Section crafted on top of a modern Bootstrap 5 Design.](https://github.com/user-attachments/assets/2dd7adf3-bf5f-4894-b585-3696e7a8606f)
 
