@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.30] 2025-04-15
+### Changes
+
+- New Apps
+  - Dynamic DataTables
+  - Dynamic API
+  - Charts
+
 ## [1.0.29] 2024-12-16
 ### Changes
 
