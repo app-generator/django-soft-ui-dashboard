@@ -7,6 +7,7 @@
   - Dynamic DataTables
   - Dynamic API
   - Charts
+- Jazzmin for ADMIN Section  
 
 ## [1.0.29] 2024-12-16
 ### Changes
