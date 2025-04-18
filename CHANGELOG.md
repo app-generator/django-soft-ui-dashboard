@@ -1,5 +1,26 @@
 # Change Log
 
+## [1.0.31] 2025-04-18
+### Changes
+
+- Update RM, Features Section:
+  - Simple, Easy-to-Extend codebase
+  - [Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/) 
+  - [Bootstrap](https://app-generator.dev/docs/templates/bootstrap.html) CSS Styling 
+  - Dynamic Tables - read [docs](https://app-generator.dev/docs/developer-tools/dynamic-datatables.html)
+  - Dynamic API - read [docs](https://app-generator.dev/docs/developer-tools/dynamic-api.html)
+  - Charts
+  - [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
+      - [Commit/rollback Git Changes](https://app-generator.dev/docs/developer-tools/django-cli/git-interface.html)
+      - `Backup & restore DB`
+      - [Interact with Django Core](https://app-generator.dev/docs/developer-tools/django-cli/query-django.html)
+      - `Manage Environment`
+      - `Manage Dependencies`
+  - Session-based Authentication, Password recovery
+  - DB Persistence: SQLite (default), can be used with MySql, PgSql
+  - Docker, CI/CD for Render
+  - [Vite](https://app-generator.dev/docs/technologies/vite/index.html) for assets management 
+
 ## [1.0.30] 2025-04-15
 ### Changes
 
