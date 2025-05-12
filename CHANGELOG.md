@@ -1,7 +1,12 @@
 # Change Log
 
+## [1.0.32] 2025-05-12
+### [Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/) Changes
+
+- CONFIG.Settings/SECRET_KEY: remove randomness if not specified 
+
 ## [1.0.31] 2025-04-18
-### Changes
+[Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/)
 
 - Update RM, Features Section:
   - Simple, Easy-to-Extend codebase
@@ -22,7 +27,7 @@
   - [Vite](https://app-generator.dev/docs/technologies/vite/index.html) for assets management 
 
 ## [1.0.30] 2025-04-15
-### Changes
+[Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/)
 
 - New Apps
   - Dynamic DataTables
