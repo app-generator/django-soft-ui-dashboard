@@ -6,7 +6,7 @@ The product is designed to deliver the best possible user experience with highly
 
 - 👉 [Django Soft UI Dashboard](https://app-generator.dev/product/soft-ui-dashboard/django/) - `Product Page`
 - 👉 [Django Soft UI Dashboard](https://django-soft-dash.onrender.com/) - `LIVE Demo` 
-- 👉 [Django Soft UI Dashboard Documentation](https://app-generator.dev/docs/products/django/soft-ui-dashboard/index.html) 
+- 👉 [Django Soft UI Dashboard](https://app-generator.dev/docs/products/django/soft-ui-dashboard/index.html) - `Documentation`
 
 <br />
 
